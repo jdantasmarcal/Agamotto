@@ -69,6 +69,10 @@ body #wrap,#center,.side,.pn,#board {background-color:#1a1a1a}
 .cd .row:hover {background:#343434}
 .cd .row.sel {background:#414141;color:#ffffff}
 input:focus,select:focus,textarea:focus {border-color:#bcbcbc;box-shadow:0 0 0 2px #ffffff12}
+.cd.mopen {
+  overflow: visible !important;
+  z-index: 20 !important;
+}
 </style>
 </head><body>
 <header><h1>Mesa do pesquisador <span class="mut">· correlação de vários CSVs</span></h1><div class="bar" style="margin:0"><input id="fl" type="file" accept=".csv,.tsv,.txt" multiple><select id="en" title="codificação"><option value="utf-8">UTF-8</option><option value="windows-1252">Windows-1252</option></select><input id="au" placeholder="assinatura" size="12"><input id="bs" placeholder="pasta-base das imagens" size="18"></div></header>
